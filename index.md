@@ -1,5 +1,4 @@
 <p style="font-size:36px"> Sander Kiviste </p>
-   <p id="date"></p>
-   <script>
-      documents.getElementById("date").innerHTML = Date();
-   </script>
+ Date/Time:
+
+<script> var dt = new Date(); document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2)); </script>
